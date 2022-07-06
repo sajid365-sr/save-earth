@@ -69,7 +69,7 @@ h1{
    
 }
 .donateToday h1{
-    font-size: 55px;
+    font-size: 50px;
     font-weight: 400;
     padding-bottom: 20px;
 }
@@ -98,4 +98,43 @@ border-radius: 5px;
 .otherAmount{
     width: 55%;
     text-align: center;
+}
+
+/* Our Donate plan Section */
+
+#ourDonatePlan{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.ourDonatePlan{
+    text-align: center;
+}
+.ourDonatePlan h1{
+    font-size: 50px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+#fstMainDiv{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.fstMiniDiv{
+    height: auto;
+    width: 27%;
+    padding: 60px 25px 40px;
+    border: 1px solid black;
+}
+.common_icon{
+    height: 50px;
+    width: 50px;
+    padding-bottom: 30px;
+}
+.fstMiniDiv h2{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 20px;
 }
