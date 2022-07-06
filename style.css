@@ -75,6 +75,9 @@ h1{
     margin: 90px 0px;
    
 }
+.donateToday{
+    text-align: center;
+}
 .donateToday h1{
     font-size: 50px;
     font-weight: 400;
@@ -106,7 +109,18 @@ border-radius: 5px;
     width: 55%;
     text-align: center;
 }
-
+#donateInput{
+    border: none;
+    width: 50%;
+    text-align: center;
+    padding: 15px 5px;
+    font-size: 18px;
+    appearance: none;
+    
+}
+#donateInput:focus{
+    outline: none;
+}
 /* Our Donate plan Section */
 
 #ourDonatePlan{
@@ -117,6 +131,8 @@ border-radius: 5px;
 }
 .ourDonatePlan{
     text-align: center;
+    width: 70%;
+    
 }
 .ourDonatePlan h1{
     font-size: 50px;
@@ -206,9 +222,16 @@ footer{
 footer h1{
     color: rgb(37, 188, 103);
     padding: 25px 0px;
+    font-weight: 400;
 }
-footer span{
+.stayWithUs{
     color: whitesmoke;
     font-size: 14px;
     letter-spacing: 5px;
+    line-height: 40px;
+}
+.copyright{
+    color: whitesmoke;
+    font-size: 12px;
+    font-weight: 200;
 }
