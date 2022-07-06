@@ -12,3 +12,33 @@ body{
 h1{
     font-family: 'Lobster', cursive;
 }
+
+/* Top Banner Section */
+
+#topBanner{
+    background-image:linear-gradient(to bottom right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url(images/panda3.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+.topBanner{
+   color: white; 
+   padding-left: 50px;
+   margin-top: -100px;
+}
+.topBanner h1{
+    font-size: 120px;
+    font-weight: 400;
+}
+.topBanner button{
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 25px;
+    border-style: none;
+    margin-top: 25px;
+}
