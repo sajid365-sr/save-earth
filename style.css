@@ -13,10 +13,13 @@ h1{
     font-family: 'Lobster', cursive;
 }
 
+.common_color{
+    color:rgba(50, 50, 50, 0.743);
+}
 /* Top Banner Section */
 
 #topBanner{
-    background-image:linear-gradient(to bottom right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url(images/panda3.jpg);
+    background-image:linear-gradient(to bottom left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url(images/panda2.jpg);
     height: 100vh;
     width: 100%;
     background-position: center;
@@ -27,18 +30,72 @@ h1{
    
 }
 .topBanner{
-   color: white; 
-   padding-left: 50px;
-   margin-top: -100px;
+   padding-left: 80px;
+   
 }
 .topBanner h1{
     font-size: 120px;
-    font-weight: 400;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.755); 
+    
 }
-.topBanner button{
-    padding: 10px 15px;
+.topBanner p{
     font-size: 18px;
-    border-radius: 25px;
-    border-style: none;
+    letter-spacing: 5px;
+    color: white;
+    font-weight: 600;
+    
+}
+.btn{
+    background-image: linear-gradient(to right bottom, rgb(0, 255, 110),rgb(26, 141, 230));
+    font-weight: bold;
+    color:rgba(0, 0, 0, 0.743);
+    font-size: 18px;
+    padding: 15px 20px;
     margin-top: 25px;
+    border-radius: 25px;
+    border-style: none; 
+    cursor: pointer;   
+}
+
+/* Donate Today Section */
+
+#donateToday{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 90px 0px;
+   
+}
+.donateToday h1{
+    font-size: 55px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.tkAmount{
+    display: flex;
+    width: 57vw;
+    justify-content: space-evenly;
+    padding: 45px 0px;
+        
+}
+
+#secondTk{
+color: rgb(37, 188, 103);
+border: 2px solid rgb(37, 188, 103);
+border-radius: 5px;
+  
+}
+.indvidualTkAmnt{
+    padding: 30px 25px;
+    background-color: rgba(244, 237, 237, 0.803);
+    box-sizing: border-box;
+    border-radius: 5px;
+    
+}
+.otherAmount{
+    width: 55%;
+    text-align: center;
 }
