@@ -270,6 +270,7 @@ footer{
     text-align: center;
     background-color: black;
     height: 25%;
+    padding-bottom: 50px;
 }
 footer h1{
     color: rgb(37, 188, 103);
