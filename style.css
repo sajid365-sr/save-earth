@@ -33,6 +33,28 @@ h1{
     border-style: none; 
     cursor: pointer;   
 }
+.btn:hover{
+    transform: scale(1.1);
+    transition: all 0.8s;
+    box-shadow: 20px 15px 15px rgba(34, 34, 34, 0.568);
+    background-image: none;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.808) 100%); */
+    background-color: rgba(124, 124, 124, 0.31); 
+    color: whitesmoke;   
+    border: 2px solid white;
+   
+    
+}
+#secondBtn:hover{
+    transform: scale(1.1);
+    transition: all 0.8s;
+    box-shadow: 20px 15px 15px rgba(34, 34, 34, 0.568);
+    background-image: none;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.808) 100%); */
+    background-color: rgba(73, 73, 73, 0.31); 
+    color: black;   
+    border: 2px solid black;
+}
 
 /* Top Banner Section */
 
@@ -45,6 +67,7 @@ h1{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    transition: all 0.5s;
    
 }
 .topBanner{
@@ -63,6 +86,9 @@ h1{
     color: white;
     font-weight: 600;
     
+}
+.topBanner button{
+    box-sizing: border-box;
 }
 
 /* Donate Today Section */
@@ -92,29 +118,37 @@ h1{
         
 }
 
-#secondTk{
-color: rgb(37, 188, 103);
-border: 2px solid rgb(37, 188, 103);
-border-radius: 5px;
-  
-}
 .indvidualTkAmnt{
-    padding: 30px 25px;
-    background-color: rgba(244, 237, 237, 0.803);
+    background-color: rgba(199, 198, 198, 0.803);
     box-sizing: border-box;
     border-radius: 5px;
     cursor: pointer;
+    transition: all 0.3s ease-in;
+    border: none;
+    color:rgba(50, 50, 50, 0.743);
+    font-size: 18px;
+}
+.indvidualTkAmnt:hover{
+    transform: scale(0.95);
+    color: rgb(5, 164, 74);
+    border-radius: 5px;
+    box-sizing: border-box;
+     
+}
+.indvidualTkAmnt h2{
+    padding:40px 35px;
 }
 .otherAmount{
     width: 55%;
     text-align: center;
 }
+
 #donateInput{
     border: none;
     width: 50%;
     text-align: center;
     padding: 15px 5px;
-    font-size: 18px;
+    font-size: 25px;
     appearance: none;
     
 }
@@ -150,6 +184,10 @@ border-radius: 5px;
     width: 27%;
     padding: 60px 25px 40px;
     border-radius: 5px;
+    transition: all 0.7s;
+}
+.dPlanMiniDiv:hover{
+    transform: scale(0.9);
 }
 #cWater{
     background-image: linear-gradient(to left bottom, rgba(194, 207, 12, 0.307),rgba(4, 239, 153, 0.308));
@@ -178,7 +216,8 @@ border-radius: 5px;
     width: 100%;
     background-position: center;
     background-size: cover;
-    padding: 100px 0px 0px 100px;
+    box-sizing: border-box;
+    padding: 100px 0px 500px 100px;
     margin: 100px 0px;
     
 }
@@ -200,7 +239,7 @@ border-radius: 5px;
 .techStatsIcons{
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 90%;
     justify-content: space-between;
     color: white;
     
@@ -211,6 +250,10 @@ border-radius: 5px;
     border-radius: 5px;
     text-align: center;
     width: 18%;
+    transition: all 0.7s;
+}
+.indTechStatsIcons:hover{
+    transform: scale(0.9);
 }
 .indTechStatsIcons h1{
     font-size: 40px;
@@ -242,6 +285,10 @@ border-radius: 5px;
     margin-top: 40px;
     margin-bottom: 110px;
     border-radius: 10px;
+    transition: all 0.7s;
+}
+.emailSec:hover{
+    transform: scale(1.1);
 }
 .emailSec input[type = email]{
     border: none;
@@ -262,7 +309,11 @@ border-radius: 5px;
     color:rgba(0, 0, 0, 0.743);
     cursor: pointer;
 }
-
+.emailSec input[type = email]:focus{
+    border: none;
+    outline: none;
+    color:rgba(50, 50, 50, 0.743);
+}
 
 /* Footer */
 

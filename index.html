@@ -38,7 +38,7 @@
             <h1>Environment</h1>
             <p>Humans were once a part of nature too. <br>
              Respect your roots.</p>
-            <button class="btn">Donate Now</button>
+            <button class="btn" onclick="donateNow()">Donate Now</button>
         </div>
     </section>
 
@@ -50,16 +50,16 @@
             <p class="common_color">Giving is not just about making a donation. <br> It is about making a difference. No one has ever become poor by giving.</p>
         </div>
         <div class="tkAmount common_color">
-            <div class="indvidualTkAmnt"><h2>100tk</h2></div>
-            <div class="indvidualTkAmnt" id="secondTk"><h2>200tk</h2></div>
-            <div class="indvidualTkAmnt"><h2>500tk</h2></div>
-            <div class="indvidualTkAmnt"><h2>1000tk</h2></div>
-            <div class="indvidualTkAmnt"><h2>5000tk</h2></div>
+            <button class="indvidualTkAmnt"><h2>$100</h2></button>
+            <button class="indvidualTkAmnt"><h2>$200</h2></button>
+            <button class="indvidualTkAmnt"><h2>$500</h2></button>
+            <button class="indvidualTkAmnt"><h2>$1000</h2></button>
+            <button class="indvidualTkAmnt"><h2>$5000</h2></button>
         </div>
         <div class="otherAmount">
-            <input type="text" placeholder="Other Amount (Taka)" id="donateInput">
+            <input type="text" placeholder="Other Amount ($)" id="donateInput">
             <hr style="margin-top:15px;">
-            <button class="btn">Donate Now</button>
+            <a href="#"><button class="btn" id="secondBtn">Donate Now</button></a>
         </div>
     </section>
 
@@ -140,7 +140,7 @@
         <p class="common_color">Join our community for more updates and be ready to change the world.</p>
         <div class="emailSec">
             <input type="email" placeholder="Email">
-            <input type="button" value="Subscribe">
+            <a href="#"><input type="button" value="Subscribe"></a>
         </div>
     </section>
 
@@ -157,7 +157,9 @@
 
 
 
+<!-- javaScript -->
 
+<script src="script.js"></script>
 
 
 </body>
