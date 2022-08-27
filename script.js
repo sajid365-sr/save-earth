@@ -1,7 +1,3 @@
-function donateNow(){
-    window.scrollBy(0,548);
-    
-}
 
 
 let tk = document.querySelectorAll('.tkAmount>button>h2');
@@ -9,7 +5,7 @@ let input = document.getElementById('donateInput');
 
 for(let keys of tk){
     keys.addEventListener('click',function(){
-        let amntValue = keys.innerHTML;
+        let amntValue = keys.innerText;
      input.value = amntValue;
     
         
